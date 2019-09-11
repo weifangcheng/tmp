@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Seamile</title>
+        <style>
+            body {
+                width: 900px;
+                margin: 0 auto;
+            }
+            .content {
+                float: left;
+                width: 700px;
+            }
+            .sidebar {
+                float: left;
+                width: 200px;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- 导航区域 -->
+        <div class="navbar">
+            <a href="#">要闻</a>
+            <a href="#">娱乐</a>
+            <a href="#">财经</a>
+            <a href="#">体育</a>
+            <a href="#">时尚</a>
+        </div>
+
+        <hr />
+
+        <!-- 内容区域 -->
+        <div class="content">
+            {% block AAAAAA %}
+             这里什么内容都没有
+            {% end %}
+        </div>
+
+        <!-- 边栏区域 -->
+        <div class="sidebar">
+            <ul>
+                <li><a href="#">研究发现大气污染颗粒...</a></li>
+                <li><a href="#">草甘膦到底致不致癌？...</a></li>
+                <li><a href="#">血液测试可以预测生死...</a></li>
+                <li><a href="#">世界上最罕见人种“红...</a></li>
+                <li><a href="#">董明珠“三高人群电饭...</a></li>
+            </ul>
+        </div>
+    </body>
+</html>
